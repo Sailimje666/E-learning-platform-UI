@@ -26,3 +26,7 @@ Responsive Design: A critical requirement is that the entire platform must be fu
 
 The final deliverable will be a visually polished and highly interactive front-end prototype that effectively simulates the experience of a real-world e-learning platform, showcasing a strong understanding of user interface design and front-end development principles.
 
+<img width="1880" height="998" alt="3" src="https://github.com/user-attachments/assets/6ded957b-2aca-4a80-bb00-20a75fe64ca5" />
+
+
+
