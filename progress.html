@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Progress - EduLearn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="courses.html" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="progress.html" class="nav-link active">My Progress</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Progress Header -->
+    <section class="progress-header">
+        <div class="container">
+            <h1>My Learning Progress</h1>
+            <p>Track your learning journey and celebrate your achievements</p>
+        </div>
+    </section>
+
+    <!-- Progress Statistics -->
+    <section class="progress-stats">
+        <div class="progress-stat">
+            <i class="fas fa-book-open" style="font-size: 2rem; color: #4caf50; margin-bottom: 1rem;"></i>
+            <h3 id="totalCourses">5</h3>
+            <p>Courses Enrolled</p>
+        </div>
+        <div class="progress-stat">
+            <i class="fas fa-clock" style="font-size: 2rem; color: #4caf50; margin-bottom: 1rem;"></i>
+            <h3 id="totalHours">127</h3>
+            <p>Hours Completed</p>
+        </div>
+        <div class="progress-stat">
+            <i class="fas fa-trophy" style="font-size: 2rem; color: #4caf50; margin-bottom: 1rem;"></i>
+            <h3 id="certificates">3</h3>
+            <p>Certificates Earned</p>
+        </div>
+        <div class="progress-stat">
+            <i class="fas fa-chart-line" style="font-size: 2rem; color: #4caf50; margin-bottom: 1rem;"></i>
+            <h3 id="avgProgress">78%</h3>
+            <p>Average Progress</p>
+        </div>
+    </section>
+
+    <!-- Course Progress -->
+    <section class="courses-progress">
+        <div class="container">
+            <h2>Course Progress</h2>
+            <div id="progressCards">
+                <!-- Progress cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EduLearn</h3>
+                    <p>Empowering learners worldwide with quality education.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="progress.html">My Progress</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
